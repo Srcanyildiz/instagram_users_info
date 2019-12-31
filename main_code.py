@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 ##let's work on Instagram
 
-user_names = ["srcanyildiz","ekinberil","ickiliydibilmemne","therock","leomessi","neymarjr","jlo"] 
+user_names = ["srcanyildiz","therock","leomessi","neymarjr","jlo"] 
 
 insta_data=[]
 for i in range(0,len(user_names)):
@@ -38,5 +38,3 @@ for i in range(0,len(insta_data)):
 
 ##if you call below instagram dataframe you will get your users info
 instagram = pd.DataFrame({'name': name,'surname': surname,'User':int_user,'followers': followers, 'following': following})
-
-Have fun!
